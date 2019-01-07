@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+BASEDIR=$(dirname "$0")
+singularity run --app R $BASEDIR/r_bioc_rstudio.simg "$@"
